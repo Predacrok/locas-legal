@@ -22,11 +22,7 @@
   <div class="doc-header">
     <p class="eyebrow">Document légal</p>
     <h1>Politique de confidentialité</h1>
-    <p class="updated">Dernière mise à jour : 5 août 2026</p>
-  </div>
-
-  <div class="notice">
-    ⚠️ Ce document constitue une base structurée conforme aux exigences habituelles du RGPD et des stores. Il est recommandé de le faire relire par un professionnel du droit avant toute évolution majeure de l'application.
+    <p class="updated">Dernière mise à jour : 14 août 2026</p>
   </div>
 
   <article>
@@ -57,7 +53,7 @@
       <li>Nom, prénom</li>
       <li>Numéro de téléphone</li>
       <li>Adresse email</li>
-      <li>Informations de séjour (dates, montants, statut de paiement)</li>
+      <li>Informations de séjour (dates, montants, frais supplémentaires, taxe de séjour, statut de paiement)</li>
     </ul>
     <div class="callout">
       <strong>Important :</strong> pour ces données concernant vos voyageurs, <strong>vous êtes vous-même responsable de traitement</strong> au sens du RGPD. LocaS agit comme un outil technique mis à votre disposition ; il vous appartient de respecter vos propres obligations vis-à-vis de vos clients (information, durée de conservation appropriée, sécurité).
@@ -68,8 +64,9 @@
       <li>Identifiant technique de votre compte</li>
       <li>Historique des connexions (à des fins de sécurité)</li>
       <li>Données de configuration de l'application (préférences, logements créés)</li>
+      <li>Statut et historique de votre abonnement (formule souscrite, dates de renouvellement)</li>
     </ul>
-    <p>Nous ne collectons <strong>aucune donnée de paiement bancaire</strong> directement — les paiements d'abonnement, lorsqu'ils existent, sont traités par les plateformes Apple App Store / Google Play, qui appliquent leurs propres politiques de confidentialité.</p>
+    <p>Nous ne collectons <strong>aucune donnée de paiement bancaire</strong> directement — les paiements d'abonnement sont traités par les plateformes Apple App Store / Google Play, et la gestion des abonnements par notre prestataire RevenueCat, qui appliquent leurs propres politiques de confidentialité.</p>
 
     <h2>3. Pourquoi collectons-nous ces données ?</h2>
     <table>
@@ -78,6 +75,7 @@
       <tr><td>Nom, prénom</td><td>Personnalisation de l'expérience</td></tr>
       <tr><td>Données de réservations et clients</td><td>Fonctionnement du service de gestion locative</td></tr>
       <tr><td>Préférence « emails de rappel »</td><td>Envoi de notifications automatiques d'arrivée/départ</td></tr>
+      <tr><td>Statut d'abonnement</td><td>Activation des fonctionnalités Pro correspondant à votre formule</td></tr>
     </table>
 
     <h2>4. Sur quelle base légale ?</h2>
@@ -94,13 +92,14 @@
       <tr><th>Prestataire</th><th>Rôle</th><th>Localisation</th></tr>
       <tr><td><strong>Supabase</strong></td><td>Hébergement de la base de données et authentification</td><td>Union Européenne (Irlande)</td></tr>
       <tr><td><strong>Brevo</strong></td><td>Envoi des emails automatiques de rappel</td><td>France / Union Européenne</td></tr>
-      <tr><td><strong>Apple / Google</strong></td><td>Gestion des abonnements via l'App Store / Play Store</td><td>Selon leurs propres politiques</td></tr>
+      <tr><td><strong>RevenueCat</strong></td><td>Gestion des abonnements et achats intégrés (statut d'abonnement, historique d'achat)</td><td>États-Unis — transfert encadré par les clauses contractuelles types (CCT) approuvées par la Commission européenne</td></tr>
+      <tr><td><strong>Apple / Google</strong></td><td>Traitement des paiements via l'App Store / Play Store</td><td>Selon leurs propres politiques</td></tr>
     </table>
     <p>Ces prestataires agissent en tant que sous-traitants au sens du RGPD et sont contractuellement engagés à protéger vos données.</p>
     <p><strong>Outils de suivi technique (analytics, crash reporting) :</strong> à ce jour, LocaS n'intègre <strong>aucun outil de suivi d'audience ni de collecte automatique d'erreurs</strong> (type Firebase Analytics, Sentry, Crashlytics, PostHog ou équivalent). Si un tel outil venait à être intégré à l'avenir, il serait ajouté au tableau ci-dessus et cette politique serait mise à jour en conséquence, conformément à l'article 12.</p>
 
     <h2>6. Transferts hors Union Européenne</h2>
-    <p>Nos hébergeurs principaux opèrent au sein de l'Union Européenne. Si un transfert hors UE devait avoir lieu (par exemple via certaines fonctionnalités futures), il serait encadré par les garanties prévues par le RGPD (clauses contractuelles types, décision d'adéquation).</p>
+    <p>La plupart de nos prestataires opèrent au sein de l'Union Européenne. Notre prestataire RevenueCat (gestion des abonnements) étant basé aux États-Unis, certaines données (statut d'abonnement, historique d'achat) font l'objet d'un transfert hors UE. Ce transfert est encadré par les <strong>clauses contractuelles types</strong> approuvées par la Commission européenne, un mécanisme de garantie prévu par le RGPD pour ce type de transfert.</p>
 
     <h2>7. Combien de temps conservons-nous vos données ?</h2>
     <ul>
